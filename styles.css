@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Roboto:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+body {
+    display: block;
+    margin: 8;
+    width: 100%;
+    height: 100%;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+#header-text {
+    font-family: 'Seaweed Script', cursive;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+.image-container {
+    width: 300px;
+    padding: 10px 10px 30px 10px;
+    border: 1px solid #ddd;
+    box-shadow: 10px 5px 0px #999;
+    background-color: white;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    color: #333;
+}
+
+#image-1 {
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.p-1 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    clear: left;
+    background-color: white;
+
+}
+
+#image-2 {
+    float: left;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.p-2 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    clear: right;
+    background-color: white;
+}
+
+article {
+    display: block;
+    max-width: 800px;
+    padding: 30px;
+    margin: 0 98px;
+    background-color: white;
+}
+
+div#image-1 {
+    margin: 0 0 30px 30px;
+    transform: rotate(10deg);
+}
+
+div#image-2 {
+    margin: 0 0 30px 30px;
+    transform: rotate(-10deg);
+}
