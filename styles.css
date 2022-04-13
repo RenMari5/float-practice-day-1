@@ -76,10 +76,10 @@ article {
 
 div#image-1 {
     margin: 0 0 30px 30px;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
 }
 
 div#image-2 {
-    margin: 0 0 30px 30px;
-    transform: rotate(-10deg);
+    margin: 30px 30px 0 0;
+    transform: rotate(-5deg);
 }
