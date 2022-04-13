@@ -19,6 +19,16 @@ body {
     font-size: 1.5em;
 }
 
+article {
+    display: block;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 0 98px;
+    background-color: white;
+}
+
 .image-container {
     width: 300px;
     padding: 10px 10px 30px 10px;
@@ -63,14 +73,6 @@ body {
     margin-inline-start: 0;
     margin-inline-end: 0;
     clear: right;
-    background-color: white;
-}
-
-article {
-    display: block;
-    max-width: 800px;
-    padding: 30px;
-    margin: 0 98px;
     background-color: white;
 }
 
